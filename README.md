@@ -1,172 +1,61 @@
-# 🍽️ Restaurante HR
+# Restaurante HR
 
-> Um site desenvolvido para apresentar o Restaurante HR, seu cardápio, pratos, informações e formas de contato de maneira simples, organizada e agradável.
+Site de um restaurante fictício de comida caseira, feito com HTML e CSS.
 
----
+## Páginas
 
-## 📌 Sobre o projeto
+- **Início** (`index.html`): boas-vindas, botão para o cardápio e prato em destaque.
+- **Cardápio** (`cardapio.html`): pratos principais e bebidas, com foto, descrição e preço.
+- **Sobre** (`sobre.html`): história e missão do restaurante.
+- **Contato** (`contato.html`): telefone, e-mail, endereço, horário de funcionamento e formulário de cadastro de cliente.
 
-O **Restaurante HR** é um projeto de site desenvolvido com o objetivo de criar uma presença digital para um restaurante fictício, permitindo que os clientes conheçam o estabelecimento, visualizem o cardápio e encontrem informações para entrar em contato.
+## Cardápio
 
-A ideia do projeto é representar uma página de restaurante de forma simples, utilizando tecnologias fundamentais de desenvolvimento web.
+| Item | Preço |
+|---|---|
+| Filé com Fritas | R$ 35,00 |
+| Frango Grelhado | R$ 25,00 |
+| Feijoada | R$ 30,00 |
+| Lasanha | R$ 32,00 |
+| Suco Natural | R$ 8,00 |
 
-O site foi desenvolvido pensando em uma experiência direta para o usuário, com navegação entre as principais áreas do restaurante:
+## Formulário de cadastro
 
-- Início
-- Cardápio
-- Sobre
-- Contato
-
----
-
-## 🎯 Objetivo
-
-O principal objetivo do projeto é desenvolver um site institucional para um restaurante, colocando em prática conceitos de:
-
-- Estruturação de páginas HTML
-- Organização de conteúdo
-- Estilização com CSS
-- Navegação entre páginas
-- Organização de arquivos
-- Utilização de imagens
-- Criação de componentes visuais
-- Desenvolvimento de uma interface simples e intuitiva
-
-Além do objetivo acadêmico, o projeto também serve como prática para desenvolvimento de projetos que podem futuramente receber funcionalidades mais avançadas.
-
----
-
-## 🖥️ Funcionalidades atuais
-
-### 🏠 Página inicial
-
-A página inicial apresenta:
-
-- Nome do restaurante
-- Menu de navegação
-- Mensagem de boas-vindas
-- Descrição do restaurante
-- Botão para acessar o cardápio
-- Prato em destaque
-- Imagem do prato
-- Preço
-- Botão de compra
-
----
-
-### 🍴 Cardápio
-
-A página de cardápio apresenta os principais produtos disponíveis.
-
-#### Pratos principais
-
-- Filé com Fritas — R$ 35,00
-- Frango Grelhado — R$ 25,00
-- Feijoada — R$ 30,00
-- Lasanha — R$ 32,00
-
-#### Bebidas
-
-- Suco Natural — R$ 8,00
-
-Cada item possui:
+Na página de contato há um formulário de cadastro de cliente com os campos:
 
 - Nome
-- Imagem
-- Descrição
-- Preço
-- Botão de compra
-
----
-
-### 📖 Sobre
-
-A página "Sobre" apresenta informações sobre o restaurante, incluindo:
-
-- História
-- Proposta
-- Missão
-- Qualidade dos ingredientes
-- Atendimento aos clientes
-
-A página busca transmitir a ideia de um restaurante voltado para comida caseira e atendimento familiar.
-
----
-
-### 📞 Contato
-
-A página de contato apresenta:
-
 - Telefone
-- E-mail
-- Endereço
-- Horário de funcionamento
-- Informações para realização de pedidos
+- CPF
+- CEP
+- Rua
+- Número da casa
+- Complemento (opcional)
 
-Também existe um botão destinado à realização de pedidos.
+Os campos obrigatórios usam `required`, e o CPF e o CEP têm limite de caracteres com `maxlength`. Como o projeto não tem servidor, os dados não são enviados nem guardados.
 
----
+## Tecnologias
 
-## 🎨 Design
+- **HTML5**: estrutura das páginas e do formulário.
+- **CSS3**: cores, cards, botões, menu e organização visual.
 
-O projeto utiliza uma identidade visual inspirada em restaurantes tradicionais.
-
-As principais características são:
-
-- Fundo em tons claros
-- Cabeçalho escuro
-- Destaques em dourado
-- Títulos em tons de marrom
-- Cards para apresentação dos pratos
-- Sombras para criar profundidade
-- Botões destacados
-- Layout centralizado
-
-A intenção foi criar uma interface simples, limpa e fácil de entender.
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-O projeto foi desenvolvido utilizando:
-
-### HTML5
-
-Responsável pela estrutura das páginas e organização do conteúdo.
-
-### CSS3
-
-Utilizado para:
-
-- Cores
-- Tipografia
-- Espaçamentos
-- Cards
-- Botões
-- Navegação
-- Organização visual
-- Efeitos de interação
-
-### Imagens
-
-O projeto utiliza imagens dos pratos para tornar o cardápio mais visual e facilitar a apresentação dos produtos.
-
----
-
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 restauranteHR/
-│
 ├── index.html
 ├── cardapio.html
 ├── sobre.html
 ├── contato.html
 ├── style.css
-│
+├── README.md
 └── img/
     ├── feijoada.jpg
     ├── file-com-fritas.jpg
     ├── frango-grelhado.jpg
     ├── lasanha.jpg
     └── suco-natural.jpg
+```
+
+## Como abrir
+
+Abra o arquivo `index.html` no navegador.
