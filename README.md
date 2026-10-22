@@ -7,7 +7,8 @@ Site de um restaurante fictício de comida caseira, feito com HTML e CSS.
 - **Início** (`index.html`): boas-vindas, botão para o cardápio e prato em destaque.
 - **Cardápio** (`cardapio.html`): pratos principais e bebidas, com foto, descrição e preço.
 - **Sobre** (`sobre.html`): história e missão do restaurante.
-- **Contato** (`contato.html`): telefone, e-mail, endereço, horário de funcionamento e formulário de cadastro de cliente.
+- **Contato** (`contato.html`): telefone, e-mail, endereço e horário de funcionamento.
+- **Pedido** (`pedido.html`): formulário com os dados do cliente para fazer o pedido.
 
 ## Cardápio
 
@@ -19,9 +20,9 @@ Site de um restaurante fictício de comida caseira, feito com HTML e CSS.
 | Lasanha | R$ 32,00 |
 | Suco Natural | R$ 8,00 |
 
-## Formulário de cadastro
+## Formulário de pedido
 
-Na página de contato há um formulário de cadastro de cliente com os campos:
+Na página de pedido há um formulário com os dados do cliente:
 
 - Nome
 - Telefone
@@ -46,6 +47,7 @@ restauranteHR/
 ├── cardapio.html
 ├── sobre.html
 ├── contato.html
+├── pedido.html
 ├── style.css
 ├── README.md
 └── img/
