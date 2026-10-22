@@ -5,8 +5,6 @@ body {
     color: #333;
 }
 
-/* CABEÇALHO */
-
 header {
     background-color: #2b2118;
     color: white;
@@ -34,8 +32,6 @@ nav a:hover {
     color: #d9a441;
 }
 
-/* ÁREA PRINCIPAL */
-
 .inicio {
     background-color: #d9a441;
     text-align: center;
@@ -53,14 +49,10 @@ nav a:hover {
     font-size: 19px;
 }
 
-/* TÍTULOS */
-
 .titulo1 {
     color: #8b4513;
     text-align: center;
 }
-
-/* PRATOS */
 
 .prato {
     background-color: white;
@@ -96,8 +88,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* BOTÃO */
-
 .botao {
     background-color: #8b4513;
     color: white;
@@ -111,8 +101,6 @@ nav a:hover {
 .botao:hover {
     background-color: #a85d25;
 }
-
-/* TEXTO */
 
 .texto {
     background-color: white;
@@ -129,63 +117,10 @@ nav a:hover {
     line-height: 1.6;
 }
 
-/* RODAPÉ */
-
 footer {
     background-color: #2b2118;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
-}
-
-.carrinho{
-    position:fixed;
-    top:20px;
-    right:20px;
-    width:300px;
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.2);
-    max-height:85vh;
-    overflow-y:auto;
-}
-
-.carrinho h2{
-    margin-top:0;
-}
-
-.item-carrinho{
-    border-bottom:1px solid #ddd;
-    padding:10px 0;
-}
-
-.item-carrinho h3{
-    margin:0 0 5px;
-}
-
-.item-carrinho p{
-    margin:5px 0;
-}
-
-.controle-quantidade{
-    display:flex;
-    align-items:center;
-    gap:10px;
-}
-
-.controle-quantidade button{
-    width:30px;
-    height:30px;
-    border:none;
-    border-radius:6px;
-    cursor:pointer;
-    font-size:18px;
-}
-
-#total-carrinho{
-    margin-top:15px;
-    padding-top:10px;
-    border-top:2px solid #ddd;
 }
